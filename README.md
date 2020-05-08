@@ -112,7 +112,7 @@ Valve provides guide on using SteamVR [here](https://valvesoftware.github.io/ste
 If you would like to use Unity's new XR Manager rather than SteamVR then use this [github template repository](https://github.com/KnightVR/XRTemplate) instead.
 
 
-This also includes a Unity Package that can be imported into any Unity project with some useful prefabs! (See release [here](www.google.com))
+This also includes a Unity Package that can be imported into any Unity project with some useful prefabs! (See release [here](https://github.com/KnightVR/XRTemplate/releases))
 
 
 This is neccessary as Unity XR Manager does not support SteamVR. When and if this is added, these two will be joined.
