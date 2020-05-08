@@ -6,37 +6,70 @@ When making a VR unity project for use with SteamVR, to save time you can genera
 **Latest Unity version tested: 2019.3.13f1**
 
 # Generating a repository from this template
-Go to this repositories github [here](www.google.com)
-Click 'Use this template'
+Go to the top of this repository and click 'Use this template'
+
+
 Select the owner of the new repository
+
+
 Enter a name for your new repository
+
+
 Click create repository.
+
+
 You will need to rename the unity project within unity to the name of your own VR project but this is simple.
+
+
 Go to Project Settings -> Player -> Change the text in the fields product name / company name to your own project and company.
+
+
 This is now ready to use, but you can tryout the example scene by opening an example scene:
+
+```
 Assets/SteamVR/InteractionSystem/Samples/Interaction_Example
+```
 
 # SteamVR in a new project
 Listed here are setup instructions for using SteamVR in a new project.
 
 From the asset store in unity search for "SteamVR"
+
 ![Image of asset store](www.google.com)
+
 Install this package and import everything
+
 ![Image of importing SteamVR](www.google.com)
+
 Accept all unity settings changes
+
 ![Image of accepting changes](www.google.com)
+
 Go to player settings -> XR Settings -> Enable 'Virtual Reality Supported'
+
+
 Add Oculus by pressing the plus button and selecting Oculus
-Add OpenVR by pressing the plus button and selecting OpenCV
+
+
+Add OpenVR by pressing the plus button and selecting OpenVR
+
+
 Set 'Stereo Rendering Mode' to 'Multi Pass'
+
 ![Image of changing XR settings](www.google.com)
+
 Go to Window -> SteamVR Input -> Click 'yes' to use example actions.json
+
 ![Image of setting SteamVR Input](www.google.com)
+
 SteamVR Input window will appear. Click 'Save and generate'
+
 ![Image of generating SteamVR Input](www.google.com)
 
 This is now ready to use, but you can tryout the example scene by opening an example scene:
+```
 Assets/SteamVR/InteractionSystem/Samples/Interaction_Example
+```
 
 # Run in Virtual Desktop
 Virtual Desktop allows you to run almost any game from Oculus Store or Steam VR via WiFi on the Oculus Quest.
@@ -45,7 +78,7 @@ Virtual Desktop allows you to run almost any game from Oculus Store or Steam VR 
 Download the Virtual Desktop Streamer application on your computer from [here](https://www.vrdesktop.net/)
 
 
-Install Virtual Desktop app using SideQuest [download sidequest](https://sidequestvr.com/setup-howto) [Virtual Desktop App](https://sidequestvr.com/app/16/virtual-desktop)
+Install Virtual Desktop app using [SideQuest](https://sidequestvr.com/setup-howto) [Virtual Desktop App](https://sidequestvr.com/app/16/virtual-desktop)
 
 
 To run a Unity application that has been built for SteamVR:
@@ -73,9 +106,13 @@ This should run the application in SteamVR which will be streamed straight to th
 
 
 # Useful guides
-Value provides guide on using SteamVR [here](https://valvesoftware.github.io/steamvr_unity_plugin/articles/intro.html)
+Valve provides guide on using SteamVR [here](https://valvesoftware.github.io/steamvr_unity_plugin/articles/intro.html)
 
 # Unity XR Manager support
 If you would like to use Unity's new XR Manager rather than SteamVR then use this [github template repository](www.google.com) instead.
+
+
 This also includes a Unity Package that can be imported into any Unity project with some useful prefabs! (See release [here](www.google.com))
+
+
 This is neccessary as Unity XR Manager does not support SteamVR. When and if this is added, these two will be joined.
