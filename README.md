@@ -35,15 +35,15 @@ Listed here are setup instructions for using SteamVR in a new project.
 
 From the asset store in unity search for "SteamVR"
 
-![Image of asset store](www.google.com)
+![Image of asset store](https://raw.githubusercontent.com/KnightVR/SteamVRTemplate/master/Images/SteamVR%20Asset%20Store.PNG)
 
 Install this package and import everything
 
-![Image of importing SteamVR](www.google.com)
+![Image of importing SteamVR](https://raw.githubusercontent.com/KnightVR/SteamVRTemplate/master/Images/SteamVR%20Import.PNG)
 
 Accept all unity settings changes
 
-![Image of accepting changes](www.google.com)
+![Image of accepting changes](https://raw.githubusercontent.com/KnightVR/SteamVRTemplate/master/Images/SteamVR%20Import%20Changes.PNG)
 
 Go to player settings -> XR Settings -> Enable 'Virtual Reality Supported'
 
@@ -56,15 +56,15 @@ Add OpenVR by pressing the plus button and selecting OpenVR
 
 Set 'Stereo Rendering Mode' to 'Multi Pass'
 
-![Image of changing XR settings](www.google.com)
+![Image of changing XR settings](https://raw.githubusercontent.com/KnightVR/SteamVRTemplate/master/Images/Player%20Settings.PNG)
 
 Go to Window -> SteamVR Input -> Click 'yes' to use example actions.json
 
-![Image of setting SteamVR Input](www.google.com)
+![Image of setting SteamVR Input](https://raw.githubusercontent.com/KnightVR/SteamVRTemplate/master/Images/Copy%20example%20actions.PNG)
 
 SteamVR Input window will appear. Click 'Save and generate'
 
-![Image of generating SteamVR Input](www.google.com)
+![Image of generating SteamVR Input](https://raw.githubusercontent.com/KnightVR/SteamVRTemplate/master/Images/Generate%20Inputs.PNG)
 
 This is now ready to use, but you can tryout the example scene by opening an example scene:
 ```
@@ -109,7 +109,7 @@ This should run the application in SteamVR which will be streamed straight to th
 Valve provides guide on using SteamVR [here](https://valvesoftware.github.io/steamvr_unity_plugin/articles/intro.html)
 
 # Unity XR Manager support
-If you would like to use Unity's new XR Manager rather than SteamVR then use this [github template repository](www.google.com) instead.
+If you would like to use Unity's new XR Manager rather than SteamVR then use this [github template repository](https://github.com/KnightVR/XRTemplate) instead.
 
 
 This also includes a Unity Package that can be imported into any Unity project with some useful prefabs! (See release [here](www.google.com))
