@@ -1,34 +1,8 @@
-# SteamVR Template
+# SteamVR Support
 
-This github template repository includes a full unity project that is setup and ready to go for SteamVR for use with Oculus
-When making a VR unity project for use with SteamVR, to save time you can generate a new github repository from this template and be ready to go!
+This github repository includes a full unity project that is setup and ready to go for SteamVR for use with Oculus
 
 **Latest Unity version tested: 2019.3.13f1**
-
-# Generating a repository from this template
-Go to the top of this repository and click 'Use this template'
-
-
-Select the owner of the new repository
-
-
-Enter a name for your new repository
-
-
-Click create repository.
-
-
-You will need to rename the unity project within unity to the name of your own VR project but this is simple.
-
-
-Go to Project Settings -> Player -> Change the text in the fields product name / company name to your own project and company.
-
-
-This is now ready to use, but you can tryout the example scene by opening an example scene:
-
-```
-Assets/SteamVR/InteractionSystem/Samples/Interaction_Example
-```
 
 # SteamVR in a new project
 Listed here are setup instructions for using SteamVR in a new project.
@@ -71,6 +45,45 @@ This is now ready to use, but you can tryout the example scene by opening an exa
 Assets/SteamVR/InteractionSystem/Samples/Interaction_Example
 ```
 
+# Generating a repository for your project
+Clone this repository
+```
+git clone https://github.com/KnightVR/SteamVRSupport.git
+```
+Delete the git folder
+```
+rmdir /s PATH_TO_REPO/.git
+```
+Create your own git repositroy on github
+
+Initalise new repository
+```
+git add .
+git commit -m "init commit"
+```
+
+Set the remote url to your new repository
+```
+git remote set-url origin YOUR_NEW_REPO_URL
+```
+
+Push repository to remote
+```
+git push -u origin master
+```
+
+You will need to rename the unity project within unity to the name of your own VR project but this is simple.
+
+
+Go to Project Settings -> Player -> Change the text in the fields product name / company name to your own project and company.
+
+
+This is now ready to use, but you can tryout the example scene by opening an example scene:
+
+```
+Assets/SteamVR/InteractionSystem/Samples/Interaction_Example
+```
+
 # Run in Virtual Desktop
 Virtual Desktop allows you to run almost any game from Oculus Store or Steam VR via WiFi on the Oculus Quest.
 
@@ -109,10 +122,10 @@ This should run the application in SteamVR which will be streamed straight to th
 Valve provides guide on using SteamVR [here](https://valvesoftware.github.io/steamvr_unity_plugin/articles/intro.html)
 
 # Unity XR Manager support
-If you would like to use Unity's new XR Manager rather than SteamVR then use this [github template repository](https://github.com/KnightVR/XRTemplate) instead.
+If you would like to use Unity's new XR Manager rather than SteamVR then use this [github template repository](https://github.com/KnightVR/XRSupport) instead.
 
 
-This also includes a Unity Package that can be imported into any Unity project with some useful prefabs! (See release [here](https://github.com/KnightVR/XRTemplate/releases))
+This also includes a Unity Package that can be imported into any Unity project with some useful prefabs! (See release [here](https://github.com/KnightVR/XRSupport/releases))
 
 
 This is neccessary as Unity XR Manager does not support SteamVR. When and if this is added, these two will be joined.
